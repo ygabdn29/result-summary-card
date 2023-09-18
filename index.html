@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <main class="page-container flex">
+      <article class="component-container flex">
+        <div class="result-container flex">
+          <h1 class="heading-primary">Your Result</h1>
+
+          <p class="result-index"><span class="score">76</span> of 100</p>
+
+          <div class="result-rank flex">
+            <h2 class="heading-secondary">Great</h2>
+            <p class="result-description">
+              You scored higher than 65% of the people who have taken these
+              tests.
+            </p>
+          </div>
+        </div>
+
+        <div class="summary-container flex">
+          <h3 class="heading-tertiary">Summary</h3>
+          <div class="result-summary flex">
+            <div class="summary summary-reaction">
+              <p class="result-reaction">
+                Reaction <span class="summary-score">80 </span>
+                <span>/ 100</span>
+              </p>
+            </div>
+
+            <div class="summary summary-memory">
+              <p class="result-memory">
+                Memory <span class="summary-score">92 </span> <span>/ 100</span>
+              </p>
+            </div>
+
+            <div class="summary summary-verbal">
+              <p class="result-reaction"></p>
+              Verbal <span class="summary-score">61 </span> <span>/ 100</span>
+            </div>
+
+            <div class="summary summary-visual">
+              <p class="result-reaction"></p>
+              Visual <span class="summary-score">72 </span> <span>/ 100</span>
+            </div>
+          </div>
+          <div class="btn-container"><a href="#" class="btn">Continue</a></div>
+        </div>
+      </article>
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
+    </main>
+  </body>
+</html>
