@@ -19,57 +19,85 @@
   </head>
 
   <body>
-    <main class="page-container flex">
-      <article class="component-container flex">
-        <div class="result-container flex">
-          <h1 class="heading-primary">Your Result</h1>
+    <main class="main-container grid">
+      <article class="result-summary-container flex">
+        <div class="result-container container flex">
+          <div class="main-heading">
+            <h1 class="heading-primary">Your Result</h1>
+          </div>
 
-          <p class="result-index"><span class="score">76</span> of 100</p>
+          <div class="result-score">
+            <p class="score">76 <span class="score-index">of 100</span></p>
+          </div>
 
-          <div class="result-rank flex">
-            <h2 class="heading-secondary">Great</h2>
-            <p class="result-description">
+          <div class="result-description flex">
+            <p class="score-class">Great</p>
+            <p class="score-description">
               You scored higher than 65% of the people who have taken these
               tests.
             </p>
           </div>
         </div>
 
-        <div class="summary-container flex">
-          <h3 class="heading-tertiary">Summary</h3>
-          <div class="result-summary flex">
-            <div class="summary summary-reaction">
-              <p class="result-reaction">
-                Reaction <span class="summary-score">80 </span>
-                <span>/ 100</span>
-              </p>
+        <div class="summary-container container flex">
+          <div class="sub-heading">
+            <h2 class="heading-secondary">Summary</h2>
+          </div>
+
+          <div class="summary-breakdown-container flex">
+            <div class="summary summary-reaction grid grid--2-cols">
+              <div class="reaction flex">
+                <img src="./assets/images/icon-reaction.svg" alt="" />Reaction
+              </div>
+              <span class="summary-score"
+                >80 <span class="summary-score-index">/ 100</span></span
+              >
             </div>
 
-            <div class="summary summary-memory">
-              <p class="result-memory">
-                Memory <span class="summary-score">92 </span> <span>/ 100</span>
-              </p>
+            <div class="summary summary-memory grid grid--2-cols">
+              <div class="memory flex">
+                <img src="./assets/images/icon-memory.svg" alt="" />Memory
+              </div>
+              <span class="summary-score"
+                >92 <span class="summary-score-index">/ 100</span></span
+              >
             </div>
 
-            <div class="summary summary-verbal">
-              <p class="result-reaction"></p>
-              Verbal <span class="summary-score">61 </span> <span>/ 100</span>
+            <div class="summary summary-verbal grid grid--2-cols">
+              <div class="verbal flex">
+                <img
+                  src="./assets/images/icon-verbal.svg"
+                  alt=""
+                  class="memory-icon"
+                />
+                Verbal
+              </div>
+              <span class="summary-score"
+                >61<span class="summary-score-index">/ 100</span></span
+              >
             </div>
 
-            <div class="summary summary-visual">
-              <p class="result-reaction"></p>
-              Visual <span class="summary-score">72 </span> <span>/ 100</span>
+            <div class="summary summary-visual grid grid--2-cols">
+              <div class="visual flex">
+                <img src="./assets/images/icon-visual.svg" alt="" />Visual
+              </div>
+              <span class="summary-score"
+                >72 <span class="summary-score-index">/ 100</span></span
+              >
             </div>
           </div>
-          <div class="btn-container"><a href="#" class="btn">Continue</a></div>
+
+          <div class="action-button">
+            <button class="btn">Continue</button>
+          </div>
         </div>
       </article>
-      <!-- <div class="attribution">
+    </main>
+  </body>
+</html>
+<!-- <div class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
         >. Coded by <a href="#">Your Name Here</a>.
       </div> -->
-    </main>
-  </body>
-</html>
