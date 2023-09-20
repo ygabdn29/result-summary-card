@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/ygabdn29/result-summary-card)
-- Live Site URL:
+- Live Site URL: (https://ygabdn29.github.io/result-summary-card/)
 
 ## My process
 
