@@ -20,84 +20,87 @@
 
   <body>
     <main class="main-container grid">
-      <article class="result-summary-container flex">
-        <div class="result-container container flex">
-          <div class="main-heading">
-            <h1 class="heading-primary">Your Result</h1>
+      <div>
+        <article class="result-summary-container flex">
+          <div class="result-container container flex">
+            <div class="main-heading">
+              <h1 class="heading-primary">Your Result</h1>
+            </div>
+
+            <div class="result-score">
+              <p class="score">76 <span class="score-index">of 100</span></p>
+            </div>
+
+            <div class="result-description flex">
+              <p class="score-class">Great</p>
+              <p class="score-description">
+                You scored higher than 65% of the people who have taken these
+                tests.
+              </p>
+            </div>
           </div>
 
-          <div class="result-score">
-            <p class="score">76 <span class="score-index">of 100</span></p>
-          </div>
+          <div class="summary-container container flex">
+            <div class="sub-heading">
+              <h2 class="heading-secondary">Summary</h2>
+            </div>
 
-          <div class="result-description flex">
-            <p class="score-class">Great</p>
-            <p class="score-description">
-              You scored higher than 65% of the people who have taken these
-              tests.
-            </p>
+            <div class="summary-breakdown-container flex">
+              <div class="summary summary-reaction grid grid--2-cols">
+                <div class="reaction flex">
+                  <img src="./assets/images/icon-reaction.svg" alt="" />Reaction
+                </div>
+                <span class="summary-score"
+                  >80 <span class="summary-score-index">/ 100</span></span
+                >
+              </div>
+
+              <div class="summary summary-memory grid grid--2-cols">
+                <div class="memory flex">
+                  <img src="./assets/images/icon-memory.svg" alt="" />Memory
+                </div>
+                <span class="summary-score"
+                  >92 <span class="summary-score-index">/ 100</span></span
+                >
+              </div>
+
+              <div class="summary summary-verbal grid grid--2-cols">
+                <div class="verbal flex">
+                  <img
+                    src="./assets/images/icon-verbal.svg"
+                    alt=""
+                    class="memory-icon"
+                  />
+                  Verbal
+                </div>
+                <span class="summary-score"
+                  >61<span class="summary-score-index">/ 100</span></span
+                >
+              </div>
+
+              <div class="summary summary-visual grid grid--2-cols">
+                <div class="visual flex">
+                  <img src="./assets/images/icon-visual.svg" alt="" />Visual
+                </div>
+                <span class="summary-score"
+                  >72 <span class="summary-score-index">/ 100</span></span
+                >
+              </div>
+            </div>
+
+            <div class="action-button">
+              <button class="btn">Continue</button>
+            </div>
           </div>
+        </article>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/ygabdn29">Yoga Budiman</a>.
         </div>
-
-        <div class="summary-container container flex">
-          <div class="sub-heading">
-            <h2 class="heading-secondary">Summary</h2>
-          </div>
-
-          <div class="summary-breakdown-container flex">
-            <div class="summary summary-reaction grid grid--2-cols">
-              <div class="reaction flex">
-                <img src="./assets/images/icon-reaction.svg" alt="" />Reaction
-              </div>
-              <span class="summary-score"
-                >80 <span class="summary-score-index">/ 100</span></span
-              >
-            </div>
-
-            <div class="summary summary-memory grid grid--2-cols">
-              <div class="memory flex">
-                <img src="./assets/images/icon-memory.svg" alt="" />Memory
-              </div>
-              <span class="summary-score"
-                >92 <span class="summary-score-index">/ 100</span></span
-              >
-            </div>
-
-            <div class="summary summary-verbal grid grid--2-cols">
-              <div class="verbal flex">
-                <img
-                  src="./assets/images/icon-verbal.svg"
-                  alt=""
-                  class="memory-icon"
-                />
-                Verbal
-              </div>
-              <span class="summary-score"
-                >61<span class="summary-score-index">/ 100</span></span
-              >
-            </div>
-
-            <div class="summary summary-visual grid grid--2-cols">
-              <div class="visual flex">
-                <img src="./assets/images/icon-visual.svg" alt="" />Visual
-              </div>
-              <span class="summary-score"
-                >72 <span class="summary-score-index">/ 100</span></span
-              >
-            </div>
-          </div>
-
-          <div class="action-button">
-            <button class="btn">Continue</button>
-          </div>
-        </div>
-      </article>
+      </div>
     </main>
   </body>
 </html>
-<!-- <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div> -->

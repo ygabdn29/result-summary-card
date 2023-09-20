@@ -248,6 +248,11 @@ body {
   transition: all 0.3s;
 }
 
+.attribution {
+  margin-top: 2.4rem;
+  text-align: center;
+}
+
 @media (max-width: 24em) {
   html {
     font-size: 56.25%;
@@ -306,5 +311,13 @@ body {
 
   .action-button {
     padding: 0 2.4rem 0 2.4rem;
+  }
+
+  /***********************/
+  /*Attribution*/
+  .attribution {
+    margin-top: 0.2rem;
+    padding-bottom: 0.8rem;
+    text-align: center;
   }
 }
