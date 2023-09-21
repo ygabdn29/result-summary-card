@@ -239,7 +239,8 @@ body {
   transition: all 0.3s;
 }
 
-.btn:active {
+.btn:active,
+.btn:hover {
   background-image: linear-gradient(
     to bottom,
     hsla(252, 100%, 67%),
