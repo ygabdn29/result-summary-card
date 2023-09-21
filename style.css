@@ -275,6 +275,10 @@ body {
     padding: 4.8rem 0rem;
   }
 
+  .main-heading {
+    margin-bottom: 1.2rem;
+  }
+
   .result-score::before {
     width: 40%;
     /* height: 60%; */
@@ -286,6 +290,10 @@ body {
       hsla(241, 81%, 54%, 0.5)
     );
     z-index: -2;
+  }
+
+  .score-class {
+    margin-top: 1.2rem;
   }
 
   .score-description {
